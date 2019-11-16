@@ -1,0 +1,88 @@
+{
+	"2player": 40,
+	"3player": 35,
+	"4player": 30,
+	"5player": 25,
+	"6player": 20,
+	"continents": [
+		{
+			"name": "C0",
+			"bonus": 2,
+			"territories": [
+				{
+					"name": "C0.T0",
+					"connections": [
+						{
+							"name": "C0.T1"
+						}
+					]
+				},
+				{
+					"name": "C0.T1",
+					"connections": [
+						{
+							"name": "C0.T0"
+						},
+						{
+							"name": "C1.T0"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "C1",
+			"bonus": 4,
+			"territories": [
+				{
+					"name": "C1.T0",
+					"connections": [
+						{
+							"name": "C1.T1"
+						},
+						{
+							"name": "C0.T1"
+						}
+					]
+				},
+				{
+					"name": "C1.T1",
+					"connections": [
+						{
+							"name": "C1.T0"
+						},
+						{
+							"name": "C1.T2"
+						}
+					]
+				},
+				{
+					"name": "C1.T2",
+					"connections": [
+						{
+							"name": "C1.T1"
+						},
+						{
+							"name": "C1.T3"
+						}
+					]
+				},
+				{
+					"name": "C1.T3",
+					"connections": [
+						{
+							"name": "C1.T2"
+						}
+					]
+				}
+			]
+		}
+	],
+	"ascii": {
+		"asciiMapInfo": "Small Visual Map,50,50,2,40,3,35,4,30,5,25,6,20",
+		"continentSizesAndOriensKVs": "C0=16,19,2,2 ; C1=19,23,1,4",
+		"contHandlesHashMapKVs": "C0=6,20 ; C1=29,26",
+		"connectionsRays": "21,32,4,8",
+		"connectionsListKVs": "C0.T0,C0.T1 ; C1.T0,C1.T1 ; C1.T1,C1.T2 ; C1.T2,C1.T3 ; C0.T1,C1.T0"
+	}
+}

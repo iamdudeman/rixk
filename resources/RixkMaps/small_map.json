@@ -1,0 +1,59 @@
+{
+    "2player": 30,
+    "3player": 5,
+    "4player": 20,
+    "5player": 15,
+    "6player": 10,
+    "continents": [
+        {
+            "name": "small",
+            "bonus": 1,
+            "territories": [
+                {
+                    "name": "firstTerritory",
+                    "connections": [
+                        {
+                            "name": "secondTerritory"
+                        },
+                        {
+                            "name": "soloLand"
+                        }
+                    ]
+                },
+                {
+                    "name": "secondTerritory",
+                    "connections": [
+                        {
+                            "name": "firstTerritory"
+                        },
+                        {
+                            "name": "thirdTerritory"
+                        }
+                    ]
+                },
+                {
+                    "name": "thirdTerritory",
+                    "connections": [
+                        {
+                            "name": "secondTerritory"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "oneTerritoryLand",
+            "bonus": 2,
+            "territories": [
+                {
+                    "name": "soloLand",
+                    "connections": [
+                        {
+                            "name": "firstTerritory"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
