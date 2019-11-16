@@ -1,0 +1,16 @@
+# Mac
+.DS_STORE
+
+# Idea
+.idea
+.imp
+*.iml
+*.ipr
+*.iws
+
+# Build
+out
+/dist
+/bin
+build/
+target/

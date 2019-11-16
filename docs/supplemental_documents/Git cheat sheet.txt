@@ -1,0 +1,46 @@
+Add all new, modified, and deleted changes
+	git add -A
+
+Commit with message
+	git commit -m 'message'
+
+Pull
+	git pull
+
+Push
+	git push
+
+Get the status
+	git status
+
+Create Branch and switch to it
+	git checkout -b branch-name
+
+Switch to master
+	git checkout master
+
+Delete branch
+	git branch -d branch-name
+
+Push branch to repo
+	git push origin branch-name
+
+Get repo history
+	git log
+
+Make a tag
+	git tag version commit-id
+
+Revert last two commits
+	git revert HEAD~2..HEAD
+	git commit
+
+Revert latest commit
+	git revert last-commit-id -m 'revert message'
+
+Create two separate revert commits
+	git revert commit-id-lastest commit-id-one-old
+	git commit
+
+Checkout single file
+	git checkout commit-id filepath

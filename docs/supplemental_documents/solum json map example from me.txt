@@ -1,0 +1,225 @@
+{
+    "2player": 40,
+    "3player": 35,
+    "4player": 30,
+    "5player": 25,
+    "6player": 20,
+    "continents": [
+        {
+            "name": "North America",
+            "bonus": 5,
+            "territories": [
+                {
+                    "name": "Alaska",
+                    "connections": [
+                        {
+                            "name": "North West Territory"
+                        },
+                        {
+                            "name": "Alberta"
+                        }
+                    ]
+                },
+                {
+                    "name": "North West Territory",
+                    "connections": [
+                        {
+                            "name": "Alaska"
+                        },
+                        {
+                            "name": "Alberta"
+                        },
+                        {
+                            "name": "Ontario"
+                        },
+                        {
+                            "name": "Greenland"
+                        }
+                    ]
+                },
+                {
+                    "name": "Greenland",
+                    "connections": [
+                        {
+                            "name": "North West Territory"
+                        },
+                        {
+                            "name": "Ontario"
+                        },
+                        {
+                            "name": "Quebec"
+                        }
+                    ]
+                },
+                {
+                    "name": "Alberta",
+                    "connections": [
+                        {
+                            "name": "Alaska"
+                        },
+                        {
+                            "name": "Ontario"
+                        },
+                        {
+                            "name": "North West Territory"
+                        },
+                        {
+                            "name": "Western United States"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ontario",
+                    "connections": [
+                        {
+                            "name": "North West Territory"
+                        },
+                        {
+                            "name": "Greenland"
+                        },
+                        {
+                            "name": "Quebec"
+                        },
+                        {
+                            "name": "Alberta"
+                        },
+                        {
+                            "name": "Western United States"
+                        },
+                        {
+                            "name": "Eastern United States"
+                        }
+                    ]
+                },
+                {
+                    "name": "Quebec",
+                    "connections": [
+                        {
+                            "name": "Eastern United States"
+                        },
+                        {
+                            "name": "Ontario"
+                        },
+                        {
+                            "name": "Greenland"
+                        }
+                    ]
+                },
+                {
+                    "name": "Western United States",
+                    "connections": [
+                        {
+                            "name": "Alberta"
+                        },
+                        {
+                            "name": "Ontario"
+                        },
+                        {
+                            "name": "Eastern United States"
+                        },
+                        {
+                            "name": "Central America"
+                        }
+                    ]
+                },
+                {
+                    "name": "Eastern United States",
+                    "connections": [
+                        {
+                            "name": "Western United States"
+                        },
+                        {
+                            "name": "Central America"
+                        },
+                        {
+                            "name": "Quebec"
+                        },
+                        {
+                            "name": "Ontario"
+                        }
+                    ]
+                },
+                {
+                    "name": "Central America",
+                    "connections": [
+                        {
+                            "name": "Western United States"
+                        },
+                        {
+                            "name": "Eastern United States"
+                        },
+                        {
+                            "name": "Venezuela"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "South America",
+            "bonus": 2,
+            "territories": [
+                {
+                    "name": "Venezuela",
+                    "connections": [
+                        {
+                            "name": "Central America"
+                        },
+                        {
+                            "name": "Peru"
+                        },
+                        {
+                            "name": "Brazil"
+                        }
+                    ]
+                },
+                {
+                    "name": "Peru",
+                    "connections": [
+                        {
+                            "name": "Venezuela"
+                        },
+                        {
+                            "name": "Brazil"
+                        },
+                        {
+                            "name": "Argentina"
+                        }
+                    ]
+                },
+                {
+                    "name": "Brazil",
+                    "connections": [
+                        {
+                            "name": "Peru"
+                        },
+                        {
+                            "name": "Venezuela"
+                        },
+                        {
+                            "name": "Argentina"
+                        }
+                    ]
+                },
+                {
+                    "name": "Argentina",
+                    "connections": [
+                        {
+                            "name": "Peru"
+                        },
+                        {
+                            "name": "Brazil"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    
+    "ascii" : {
+        "ContinentHandlesHashmap" : "C0=3,5 ; C1 = 5,8; ... ",
+		"TerrritoryHandlesHashmap" : C0.T0=3.5; ... "
+	
+	// name keys as variable nams in ASCII_RISKMap
+    }
+}
