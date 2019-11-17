@@ -31,6 +31,21 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.1.2</version>
+                <executions>
+                    <execution>
+                        <id>ai</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <configuration>
+                            <classifier>ai</classifier>
+                            <includes>
+                                <include>**/rixk/ai/*</include>
+                            </includes>
+                        </configuration>
+                    </execution>
+                </executions>
                 <configuration>
                     <archive>
                         <manifest>

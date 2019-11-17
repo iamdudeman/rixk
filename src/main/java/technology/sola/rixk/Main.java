@@ -5,8 +5,6 @@ import technology.sola.rixk.model.GameState;
 import technology.sola.rixk.view.SetupView;
 import technology.sola.rixk.view.cli.CliSetupView;
 
-// TODO rebuild AI jars
-
 public class Main {
   public static void main(String[] args) {
     GameViewManager gvm = GameViewManager.getInstance();
