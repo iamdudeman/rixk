@@ -1,0 +1,124 @@
+{
+	"2player": 40,
+	"3player": 35,
+	"4player": 30,
+	"5player": 25,
+	"6player": 20,
+	"continents": [
+		{
+			"name": "C0",
+			"bonus": 4,
+			"territories": [
+				{
+					"name": "C0.T0",
+					"connections": [
+						{
+							"name": "C0.T1"
+						}
+					]
+				},
+				{
+					"name": "C0.T1",
+					"connections": [
+						{
+							"name": "C0.T0"
+						},
+						{
+							"name": "C0.T2"
+						}
+					]
+				},
+				{
+					"name": "C0.T2",
+					"connections": [
+						{
+							"name": "C0.T1"
+						},
+						{
+							"name": "C0.T3"
+						}
+					]
+				},
+				{
+					"name": "C0.T3",
+					"connections": [
+						{
+							"name": "C0.T2"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "C1",
+			"bonus": 2,
+			"territories": [
+				{
+					"name": "C1.T0",
+					"connections": [
+						{
+							"name": "C1.T1"
+						}
+					]
+				},
+				{
+					"name": "C1.T1",
+					"connections": [
+						{
+							"name": "C1.T0"
+						},
+						{
+							"name": "n/a"
+						},
+						{
+							"name": "C2.T0"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "C2",
+			"bonus": 3,
+			"territories": [
+				{
+					"name": "C2.T0",
+					"connections": [
+						{
+							"name": "C2.T1"
+						},
+						{
+							"name": "C1.T1"
+						}
+					]
+				},
+				{
+					"name": "C2.T1",
+					"connections": [
+						{
+							"name": "C2.T0"
+						},
+						{
+							"name": "C2.T2"
+						}
+					]
+				},
+				{
+					"name": "C2.T2",
+					"connections": [
+						{
+							"name": "C2.T1"
+						}
+					]
+				}
+			]
+		}
+	],
+	"ascii": {
+		"asciiMapInfo": "generated_foo,50,100,2,40,3,35,4,30,5,25,6,20",
+		"continentSizesAndOriensKVs": "C0=20,27,1,4 ; C1=18,28,2,2 ; C2=16,28,2,3",
+		"contHandlesHashMapKVs": "C0=20,52 ; C1=22,5 ; C2=1,19",
+		"connectionsRays": "37,52,6,20 ; 16,24,4,6",
+		"connectionsListKVs": "C0.T0,C0.T1 ; C0.T1,C0.T2 ; C0.T2,C0.T3 ; C1.T0,C1.T1 ; C2.T0,C2.T1 ; C2.T1,C2.T2 ; n/a,C1.T1 ; C2.T0,C1.T1"
+	}
+}
