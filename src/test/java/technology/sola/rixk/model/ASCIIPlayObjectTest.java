@@ -8,6 +8,7 @@ import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+@Disabled
 class ASCIIPlayObjectTest {
 
   private final int HORIZONTAL_ORIENTED = 1;
