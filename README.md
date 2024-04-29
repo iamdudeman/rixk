@@ -2,7 +2,7 @@
 
 ---
 ## Program Description
-This is a text-based version of the popular board game Risk. It will support custom modding of the AI through a Java API as well as the possibility for user made maps. This project is to fulfill the project 1 requirement for Software Engineering and to explore the difficulties of using the Waterfall method in software development.
+This is a text-based version of the popular board game Risk. It supports custom modding of the AI through a Java API as well as the possibility for user made maps. This project is to fulfill the project 1 requirement for my Software Engineering in 2015 and to explore the difficulties of using the Waterfall method in software development. It was later uploaded here to GitHub.
 
 ---
 ## Run Instructions
